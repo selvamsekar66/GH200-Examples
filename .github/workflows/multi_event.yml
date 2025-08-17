@@ -1,4 +1,4 @@
-name: Single Event Example
+name: Multi Event Example
 
 on: [push, pull_request]
 
