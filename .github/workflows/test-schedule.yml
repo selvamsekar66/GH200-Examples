@@ -1,0 +1,15 @@
+name: Test Schedule Workflows
+
+
+on: 
+  schedule:
+  - cron : "*/1 * * * *"
+
+Jobs:
+  test-job:
+    run-on: ubuntu-latest
+    steps:
+      - name: show current time
+        run: |
+          echo "Workflow triggered at $(date - u)"
+          echo "Hello from Github actions"  
