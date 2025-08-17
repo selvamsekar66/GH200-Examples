@@ -4,6 +4,7 @@ name: Test Schedule Workflows
 on: 
   schedule:
   - cron : "*/1 * * * *"
+  workflow_dispatch:
 
 jobs:
   test-job:
