@@ -2,7 +2,7 @@ name: Conditional-workflow
 on: [push]
 jobs:
   hello-world:
-    if: github.repository == 'octo-org/octo-repo-prod'
+    if: github.repository == 'git@github.com:selvamsekar66/GH200-Examples'
     runs-on: ubuntu-latest
     steps:
       - name: "Hello World"
